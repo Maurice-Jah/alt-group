@@ -64,6 +64,7 @@ nav ul li a {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+  margin-bottom: 5rem;
 }
 
 .hero__text > * {
@@ -84,4 +85,17 @@ nav ul li a {
 .hero__video {
   border: 2px solid gray;
   border-radius: 20px;
+}
+
+/* Partners */
+.partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.partners a {
+  text-decoration: none;
+  color: var(--black-clr);
 }
