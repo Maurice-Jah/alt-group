@@ -22,6 +22,7 @@ html {
 body {
   background-color: var(--white-clr);
   font-size: 1rem;
+  padding: 3rem 5rem;
 }
 
 /* button */
@@ -40,7 +41,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem;
+  margin-bottom: 5rem;
 }
 
 nav ul {
@@ -54,4 +55,33 @@ nav ul li a {
   text-decoration: none;
   color: var(--black-clr);
   font-weight: 500;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero__text > * {
+  padding-bottom: 1rem;
+}
+
+.hero__form input[type='text'] {
+  padding: 0.8rem 1rem;
+  font-size: inherit;
+  border: 1px solid var(--yellow-clr);
+  outline: none;
+}
+
+.hero .hightlight {
+  color: var(--orange-clr);
+}
+
+.hero__video {
+  border: 2px solid gray;
+  border-radius: 20px;
 }
