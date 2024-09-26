@@ -156,3 +156,26 @@ nav ul li a {
 .ourStrenght article:nth-of-type(4) img {
   background-color: var(--darkBlue-clr);
 }
+
+/* Principle */
+.principle {
+  background-color: #f4f4f4;
+  border-top-right-radius: 15rem;
+}
+
+.principle p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.principle__sub {
+  margin-bottom: 2rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.postContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
