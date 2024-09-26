@@ -311,3 +311,26 @@ nav ul li a {
 .collaborateContainer article:nth-of-type(4) img {
   background-color: var(--darkBlue-clr);
 }
+
+/* ContactUs */
+.contactUs {
+  background: var(--darkBlue-clr);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-block: 2rem;
+  color: var(--white-clr);
+  font-size: 1.3rem;
+  border-radius: 1rem;
+}
+
+.contactUs .cta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.contactUs .cta > button:first-child {
+  background-color: #61aebf;
+  padding-inline: 3rem;
+}
