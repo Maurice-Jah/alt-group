@@ -242,3 +242,17 @@ nav ul li a {
 .proof__footer-button {
   background-color: #0e8896;
 }
+
+/* Verbatim */
+.verbatim__client {
+  background-color: #0e8896;
+  text-align: center;
+  padding: 3rem 5rem;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  width: 70%;
+}
+
+.verbatim__client-rating {
+  margin-top: 2rem;
+}
