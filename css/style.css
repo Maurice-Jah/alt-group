@@ -36,6 +36,10 @@ body {
   padding: 1rem 2rem;
 }
 
+section {
+  margin-bottom: 5rem;
+}
+
 /* header */
 header {
   display: flex;
@@ -64,7 +68,6 @@ nav ul li a {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  margin-bottom: 5rem;
 }
 
 .hero__text > * {
@@ -98,4 +101,58 @@ nav ul li a {
 .partners a {
   text-decoration: none;
   color: var(--black-clr);
+}
+
+/* Strenght */
+.ourStrenght {
+  text-align: center;
+}
+.ourStrenght div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.ourStrenght div .main {
+  font-weight: 700;
+}
+
+.ourStrenght div > * {
+  border-radius: 10px;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.ourStrenght article > * {
+  margin-bottom: 0.8rem;
+}
+
+.ourStrenght article > *:last-child {
+  padding-bottom: 1.5rem;
+}
+
+.ourStrenght img {
+  height: 3rem;
+  width: 3rem;
+  border: 2px solid red;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.ourStrenght article:nth-of-type(1) img {
+  background-color: var(--orange-clr);
+}
+
+.ourStrenght article:nth-of-type(2) img {
+  background-color: var(--darkBlue-clr);
+}
+.ourStrenght article:nth-of-type(3) img {
+  background-color: var(--orange-clr);
+}
+.ourStrenght article:nth-of-type(4) img {
+  background-color: var(--darkBlue-clr);
 }
