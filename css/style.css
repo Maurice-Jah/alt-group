@@ -179,3 +179,30 @@ nav ul li a {
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
+
+/* Channels */
+.channels {
+  text-align: center;
+}
+
+.channels__title {
+  margin-bottom: 1.5rem;
+}
+
+.channels__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #edf0f2;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.channels__list a {
+  text-decoration: none;
+}
+
+.channels__list img {
+  display: inline-block;
+}
