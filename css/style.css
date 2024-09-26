@@ -206,3 +206,39 @@ nav ul li a {
 .channels__list img {
   display: inline-block;
 }
+
+/* Proof */
+.proof__heading {
+  text-align: center;
+}
+
+.proofContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.proofContainer > * {
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px #edf0f2;
+  padding: 1.2rem;
+  margin-top: 2rem;
+}
+
+.proof__one > p,
+.proof__two > p,
+.proof__three > p {
+  text-align: center;
+}
+
+.proof__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.proof__footer-button {
+  background-color: #0e8896;
+}
