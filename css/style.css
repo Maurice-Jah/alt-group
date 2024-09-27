@@ -25,6 +25,14 @@ body {
   padding: 3rem 5rem;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
 /* button */
 .btn {
   border-radius: 10px;
@@ -333,4 +341,39 @@ nav ul li a {
 .contactUs .cta > button:first-child {
   background-color: #61aebf;
   padding-inline: 3rem;
+}
+
+/* Footer */
+.footer {
+  background: var(--darkBlue-clr);
+  color: var(--white-clr);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.footer .first {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.footer__links > *,
+.footer__works > *,
+.footer__contact > * {
+  padding-bottom: 1rem;
+}
+
+.footer__endNotes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem;
+  padding: 3rem;
+  border-top: 3px solid #f4f4f4;
+}
+
+.footer__endNotes div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
